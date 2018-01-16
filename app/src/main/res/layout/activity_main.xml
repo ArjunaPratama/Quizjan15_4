@@ -17,7 +17,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Alas"
-            android:inputType="number" />
+            android:inputType="number"
+            android:padding="16dp"/>
 
         <EditText
             android:id="@+id/ettinggi"
@@ -25,13 +26,16 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Tinggi"
-            android:inputType="number" />
+            android:inputType="number"
+            android:padding="16dp"
+            />
 
         <Button
             android:id="@+id/btnhitung"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hitung" />
+            android:text="Hitung"
+            />
 
         <TextView
             android:id="@+id/txthasil"

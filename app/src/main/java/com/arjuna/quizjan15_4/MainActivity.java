@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 String nTinggi = etTinggi.getText().toString();
 
                 //mengecek apa edit text kosong
-                //kondisi panjang nya kosong
+                //kondisi alas nya kosong
                 if (nAlas.isEmpty()) {
                     //memberikan warning berupa eror
                     etAlas.setError("Panjang Tidak Boleh Kosong");
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
                     //kondisi ketika panjang dan lebar nya tidak kosong
 
-                    int hasilHitungLuas = aAlas * aTinggi / 2;
+                    int hasilHitungLuas = ((aAlas * aTinggi) / 2);
 
                     //menampilkan hasil hitung ke widget textview
                     txthasil.setText("Luas : " + hasilHitungLuas);
